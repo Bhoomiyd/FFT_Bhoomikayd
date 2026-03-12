@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Transformations</title>
+
+<style>
+
+body{
+font-family:Arial;
+text-align:center;
+background:#f2f2f2;
+}
+
+.box{
+width:120px;
+height:80px;
+background:skyblue;
+margin:20px auto;
+line-height:80px;
+transition:0.5s;
+}
+
+/* 1 Translate Right */
+.t1:hover{
+transform:translateX(50px);
+}
+
+/* 2 Translate Down */
+.t2:hover{
+transform:translateY(50px);
+}
+
+/* 3 Rotate */
+.t3:hover{
+transform:rotate(45deg);
+}
+
+/* 4 Scale Up */
+.t4:hover{
+transform:scale(1.3);
+}
+
+/* 5 Scale Down */
+.t5:hover{
+transform:scale(0.7);
+}
+
+/* 6 Skew X */
+.t6:hover{
+transform:skewX(20deg);
+}
+
+/* 7 Skew Y */
+.t7:hover{
+transform:skewY(20deg);
+}
+
+/* 8 Multiple Transform */
+.t8:hover{
+transform:translate(30px,20px) rotate(20deg) scale(1.2);
+}
+
+</style>
+</head>
+
+<body>
+
+<h2>CSS Transformations (Basic)</h2>
+
+<div class="box t1">move right</div>
+
+<div class="box t2">move down</div>
+
+<div class="box t3">Rotate</div>
+
+<div class="box t4">Scale Up</div>
+
+<div class="box t5">Scale Down</div>
+
+<div class="box t6">Skew X</div>
+
+<div class="box t7">Skew Y</div>
+
+<div class="box t8">Multiple</div>
+
+</body>
+</html>
